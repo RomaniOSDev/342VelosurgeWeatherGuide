@@ -8,25 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		1E02CF0297EA6869FCCCF449 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC112694099858A4B00C65A9 /* AppLinks.swift */; };
+		30B2E6BA305DD32600991807 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B0305DD32600991807 /* LoadingViewController.swift */; };
+		30B2E6BB305DD32600991807 /* NotificationPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B5305DD32600991807 /* NotificationPermissionViewController.swift */; };
+		30B2E6BC305DD32600991807 /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B2305DD32600991807 /* NoInternetView.swift */; };
+		30B2E6BD305DD32600991807 /* PushNotificationURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B6305DD32600991807 /* PushNotificationURLRouter.swift */; };
+		30B2E6BE305DD32600991807 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B7305DD32600991807 /* UserAgentBuilder.swift */; };
+		30B2E6BF305DD32600991807 /* LoadingThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6AE305DD32600991807 /* LoadingThemeColors.swift */; };
+		30B2E6C0305DD32600991807 /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6AB305DD32600991807 /* AppsFlyerManager.swift */; };
+		30B2E6C1305DD32600991807 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6AF305DD32600991807 /* LoadingView.swift */; };
+		30B2E6C2305DD32600991807 /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B8305DD32600991807 /* WebviewVC.swift */; };
+		30B2E6C3305DD32600991807 /* NetworkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B1305DD32600991807 /* NetworkAvailability.swift */; };
+		30B2E6C4305DD32600991807 /* NotificationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B3305DD32600991807 /* NotificationPermissionManager.swift */; };
+		30B2E6C5305DD32600991807 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6B4305DD32600991807 /* NotificationPermissionView.swift */; };
+		30B2E6C6305DD32600991807 /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6AD305DD32600991807 /* LoadingManager.swift */; };
+		30B2E6C7305DD32600991807 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2E6AC305DD32600991807 /* ConfigManager.swift */; };
+		30B2E6C9305DD36F00991807 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B2E6C8305DD36F00991807 /* GoogleService-Info.plist */; };
 		3505A37381165CFAE6211FBE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 27EE8BB3CAB8AFA85BB145FC /* PrivacyInfo.xcprivacy */; };
 		3665D142FD3CB63F294C7552 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A3C6A27A13CDA0E381A33B /* TrendsView.swift */; };
 		3A8606AF14C3F34AA7A99040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E99AA38DBD88A66E2CE5CC /* Main.storyboard */; };
 		479479F26B28D363D38B3967 /* MoistureGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E13D3E4CFFC6B162FE614 /* MoistureGauge.swift */; };
+		51609787EFBA5EE842936059 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 7E56F0D70ECF8C42B37E91C5 /* AppsFlyerLib-Static */; };
+		5EC3E13621E5EB9CA0D2B196 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7912516DF052D36D962BAB21 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F9B2D04C8E3501F0B23D4E5 /* WateringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A1C93B7D24F0E9A12C3D4 /* WateringView.swift */; };
 		6ED1C95BCC0B8F039CC12064 /* ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6460A11035591483F250C8E /* ScreenBackground.swift */; };
 		76BFF0902BA875DE5CFBF722 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037438F22F72E9400C71AF6B /* AppStorage.swift */; };
 		7B1D4F26E0A572312D45F607 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C3E15D9F461201C34E5F6 /* NotificationService.swift */; };
 		83955EAEFC1E6E7536C26A43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180BA0E06998AF3B21527F4 /* SceneDelegate.swift */; };
+		880B0CD96C84F39042234D3B /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 277082180785617E19E0D2CE /* FirebaseMessaging */; };
 		884E90F081888B4DF3E75665 /* MoistureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ED93FEADDF0063FE640D85 /* MoistureModels.swift */; };
 		917DE9D41EDA583193FABA56 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A758BD60569E1B80A2FE8C /* AppTheme.swift */; };
 		933C0516FA68EB53DEEFBE4E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DF5C1F47CD595EB405ACB /* SettingsView.swift */; };
+		A0711AFB0F1A691BF3CC49E3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 5AB2B4690FC4CB6A7132C299 /* FirebaseMessaging */; };
 		B74ED967E909CF824428FD0D /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B414D29352A2A8B255C952DE /* AlertsView.swift */; };
 		C33022A8E76220AD865AA3D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221B9536A616A0A3FCE10DC7 /* ContentView.swift */; };
 		C79D2CCDC70068E964CB9DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13A592628B2C0A8C4955EA /* AppDelegate.swift */; };
 		DE74AF9536B135A194501E84 /* LogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875384E1A4657D5AEC26FF9 /* LogFormView.swift */; };
+		E341AC971161E2BE4CF238A9 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E78C27DF1F77C06140781 /* NotificationService.swift */; };
 		E7595CD851CD83512C8CED7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BF6A9BEDCC52791E7D62AA /* LaunchScreen.storyboard */; };
 		EECE5153F40BA077320D8D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFB2DDEF285DFEE7E2CBBDB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE18AA5D4DAD8DD8311FE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E420DAFDE97D6043F9857F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA01A30AB3497FA73123CF75;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA32D5405C8CF9352AEAEC6F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5EC3E13621E5EB9CA0D2B196 /* NotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		037438F22F72E9400C71AF6B /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
@@ -35,17 +79,37 @@
 		104E13D3E4CFFC6B162FE614 /* MoistureGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoistureGauge.swift; sourceTree = "<group>"; };
 		1CFB2DDEF285DFEE7E2CBBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221B9536A616A0A3FCE10DC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2710F64BC35CA58C7FD740EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		27EE8BB3CAB8AFA85BB145FC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		30B2E6AB305DD32600991807 /* AppsFlyerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
+		30B2E6AC305DD32600991807 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		30B2E6AD305DD32600991807 /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		30B2E6AE305DD32600991807 /* LoadingThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingThemeColors.swift; sourceTree = "<group>"; };
+		30B2E6AF305DD32600991807 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		30B2E6B0305DD32600991807 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		30B2E6B1305DD32600991807 /* NetworkAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAvailability.swift; sourceTree = "<group>"; };
+		30B2E6B2305DD32600991807 /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		30B2E6B3305DD32600991807 /* NotificationPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionManager.swift; sourceTree = "<group>"; };
+		30B2E6B4305DD32600991807 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		30B2E6B5305DD32600991807 /* NotificationPermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionViewController.swift; sourceTree = "<group>"; };
+		30B2E6B6305DD32600991807 /* PushNotificationURLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationURLRouter.swift; sourceTree = "<group>"; };
+		30B2E6B7305DD32600991807 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		30B2E6B8305DD32600991807 /* WebviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
+		30B2E6C8305DD36F00991807 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E8A1C93B7D24F0E9A12C3D4 /* WateringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringView.swift; sourceTree = "<group>"; };
 		57BF6A9BEDCC52791E7D62AA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64A758BD60569E1B80A2FE8C /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		6A0C3E15D9F461201C34E5F6 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		7912516DF052D36D962BAB21 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C57D2259499689F7004F72 /* VelosurgeWeatherGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelosurgeWeatherGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9180BA0E06998AF3B21527F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E4798914C418BAA20FBC4CB /* Pods-VelosurgeWeatherGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VelosurgeWeatherGuide.release.xcconfig"; path = "Target Support Files/Pods-VelosurgeWeatherGuide/Pods-VelosurgeWeatherGuide.release.xcconfig"; sourceTree = "<group>"; };
+		9E4E78C27DF1F77C06140781 /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A50AA6004882F84E63B2923B /* VelosurgeWeatherGuide.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = VelosurgeWeatherGuide.entitlements; sourceTree = "<group>"; };
 		AA13A592628B2C0A8C4955EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B414D29352A2A8B255C952DE /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
 		B556414AB9E302E829F7CC5D /* Pods_VelosurgeWeatherGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VelosurgeWeatherGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E39D7D448B54DF35B371F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4A3C6A27A13CDA0E381A33B /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
 		D9E99AA38DBD88A66E2CE5CC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DC112694099858A4B00C65A9 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
@@ -56,10 +120,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		133FD121F3B1FAF2186BD36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0711AFB0F1A691BF3CC49E3 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9B3DD5B3B3D896C3EFB5695 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880B0CD96C84F39042234D3B /* FirebaseMessaging in Frameworks */,
+				51609787EFBA5EE842936059 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				B556414AB9E302E829F7CC5D /* Pods_VelosurgeWeatherGuide.framework */,
+				CB57FE83BC3293E782F546B6 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,6 +160,9 @@
 				CF25A5688D222B1F19B578A9 /* Theme */,
 				A1BAFE4229B3C40C36E92280 /* Utilities */,
 				B18CCF56EA13EDD6D5ACC0B7 /* Views */,
+				A50AA6004882F84E63B2923B /* VelosurgeWeatherGuide.entitlements */,
+				30B2E6B9305DD32600991807 /* Loading */,
+				30B2E6C8305DD36F00991807 /* GoogleService-Info.plist */,
 			);
 			path = VelosurgeWeatherGuide;
 			sourceTree = "<group>";
@@ -96,6 +174,7 @@
 				CBCFCFEC95196AFE9A3AD581 /* Products */,
 				BD98795D496D6BEB8156528F /* Pods */,
 				0584E2E2562F234A117CD9A8 /* Frameworks */,
+				2EFBBDFD9592C7FD1FFC77EC /* NotificationServiceExtension */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +185,36 @@
 				27EE8BB3CAB8AFA85BB145FC /* PrivacyInfo.xcprivacy */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2EFBBDFD9592C7FD1FFC77EC /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9E4E78C27DF1F77C06140781 /* NotificationService.swift */,
+				B7E39D7D448B54DF35B371F1 /* Info.plist */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		30B2E6B9305DD32600991807 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				30B2E6AB305DD32600991807 /* AppsFlyerManager.swift */,
+				30B2E6AC305DD32600991807 /* ConfigManager.swift */,
+				30B2E6AD305DD32600991807 /* LoadingManager.swift */,
+				30B2E6AE305DD32600991807 /* LoadingThemeColors.swift */,
+				30B2E6AF305DD32600991807 /* LoadingView.swift */,
+				30B2E6B0305DD32600991807 /* LoadingViewController.swift */,
+				30B2E6B1305DD32600991807 /* NetworkAvailability.swift */,
+				30B2E6B2305DD32600991807 /* NoInternetView.swift */,
+				30B2E6B3305DD32600991807 /* NotificationPermissionManager.swift */,
+				30B2E6B4305DD32600991807 /* NotificationPermissionView.swift */,
+				30B2E6B5305DD32600991807 /* NotificationPermissionViewController.swift */,
+				30B2E6B6305DD32600991807 /* PushNotificationURLRouter.swift */,
+				30B2E6B7305DD32600991807 /* UserAgentBuilder.swift */,
+				30B2E6B8305DD32600991807 /* WebviewVC.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		3616E0D0B768D1A479767FB3 /* Components */ = {
@@ -163,10 +272,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CB57FE83BC3293E782F546B6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2710F64BC35CA58C7FD740EC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		CBCFCFEC95196AFE9A3AD581 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				80C57D2259499689F7004F72 /* VelosurgeWeatherGuide.app */,
+				7912516DF052D36D962BAB21 /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,15 +353,41 @@
 				D18BE49B20C2C24E3A6D7615 /* Sources */,
 				D9B3DD5B3B3D896C3EFB5695 /* Frameworks */,
 				F7D28ED9DDDC9FF071CC0168 /* Resources */,
+				DA32D5405C8CF9352AEAEC6F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9270E2D354127FEBE04D8A /* PBXTargetDependency */,
+			);
+			name = VelosurgeWeatherGuide;
+			packageProductDependencies = (
+				277082180785617E19E0D2CE /* FirebaseMessaging */,
+				7E56F0D70ECF8C42B37E91C5 /* AppsFlyerLib-Static */,
+			);
+			productName = VelosurgeWeatherGuide;
+			productReference = 80C57D2259499689F7004F72 /* VelosurgeWeatherGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA01A30AB3497FA73123CF75 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D71C8183CB9A606BE729FE7 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				06179C134A0046E55545E01C /* Sources */,
+				133FD121F3B1FAF2186BD36C /* Frameworks */,
+				0FE2F9ED55E78139C623EDE6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VelosurgeWeatherGuide;
-			productName = VelosurgeWeatherGuide;
-			productReference = 80C57D2259499689F7004F72 /* VelosurgeWeatherGuide.app */;
-			productType = "com.apple.product-type.application";
+			name = NotificationServiceExtension;
+			packageProductDependencies = (
+				5AB2B4690FC4CB6A7132C299 /* FirebaseMessaging */,
+			);
+			productName = NotificationServiceExtension;
+			productReference = 7912516DF052D36D962BAB21 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -253,7 +397,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					76709385AE762C8B3DB7AFE0 = {
 						CreatedOnToolsVersion = 15.0;
@@ -269,22 +413,35 @@
 				Base,
 			);
 			mainGroup = 1FB71E5C761F37F9DDFA1CD9;
+			packageReferences = (
+				71F071A413CCB1F5DCB75027 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C122AEEBDF8B4BAD302992FC /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = CBCFCFEC95196AFE9A3AD581 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				76709385AE762C8B3DB7AFE0 /* VelosurgeWeatherGuide */,
+				CA01A30AB3497FA73123CF75 /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0FE2F9ED55E78139C623EDE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7D28ED9DDDC9FF071CC0168 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E7595CD851CD83512C8CED7E /* LaunchScreen.storyboard in Resources */,
 				3A8606AF14C3F34AA7A99040 /* Main.storyboard in Resources */,
+				30B2E6C9305DD36F00991807 /* GoogleService-Info.plist in Resources */,
 				EECE5153F40BA077320D8D7C /* Assets.xcassets in Resources */,
 				3505A37381165CFAE6211FBE /* PrivacyInfo.xcprivacy in Resources */,
 			);
@@ -318,6 +475,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		06179C134A0046E55545E01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E341AC971161E2BE4CF238A9 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D18BE49B20C2C24E3A6D7615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,6 +495,20 @@
 				917DE9D41EDA583193FABA56 /* AppTheme.swift in Sources */,
 				1E02CF0297EA6869FCCCF449 /* AppLinks.swift in Sources */,
 				6ED1C95BCC0B8F039CC12064 /* ScreenBackground.swift in Sources */,
+				30B2E6BA305DD32600991807 /* LoadingViewController.swift in Sources */,
+				30B2E6BB305DD32600991807 /* NotificationPermissionViewController.swift in Sources */,
+				30B2E6BC305DD32600991807 /* NoInternetView.swift in Sources */,
+				30B2E6BD305DD32600991807 /* PushNotificationURLRouter.swift in Sources */,
+				30B2E6BE305DD32600991807 /* UserAgentBuilder.swift in Sources */,
+				30B2E6BF305DD32600991807 /* LoadingThemeColors.swift in Sources */,
+				30B2E6C0305DD32600991807 /* AppsFlyerManager.swift in Sources */,
+				30B2E6C1305DD32600991807 /* LoadingView.swift in Sources */,
+				30B2E6C2305DD32600991807 /* WebviewVC.swift in Sources */,
+				30B2E6C3305DD32600991807 /* NetworkAvailability.swift in Sources */,
+				30B2E6C4305DD32600991807 /* NotificationPermissionManager.swift in Sources */,
+				30B2E6C5305DD32600991807 /* NotificationPermissionView.swift in Sources */,
+				30B2E6C6305DD32600991807 /* LoadingManager.swift in Sources */,
+				30B2E6C7305DD32600991807 /* ConfigManager.swift in Sources */,
 				B74ED967E909CF824428FD0D /* AlertsView.swift in Sources */,
 				C33022A8E76220AD865AA3D3 /* ContentView.swift in Sources */,
 				DE74AF9536B135A194501E84 /* LogFormView.swift in Sources */,
@@ -342,6 +521,15 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4C9270E2D354127FEBE04D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NotificationServiceExtension;
+			target = CA01A30AB3497FA73123CF75 /* NotificationServiceExtension */;
+			targetProxy = FDE18AA5D4DAD8DD8311FE3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		037DD9D025994948062C7707 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -349,11 +537,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VelosurgeWeatherGuide/VelosurgeWeatherGuide.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_DEBUG_DYLIB = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VelosurgeWeatherGuide/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Velosurge Weather Guide";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you capture photos and videos inside web content.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to record audio for camera and web content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to measure ad campaigns and improve your experience in the app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -362,7 +556,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.han.v3l0s7rg3w27th3rg81d2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -375,17 +573,60 @@
 			};
 			name = Release;
 		};
+		18E5DE2808D6987125BF48EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_DEBUG_DYLIB = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.han.v3l0s7rg3w27th3rg81d2.NotificationServiceExtension;
+				PRODUCT_NAME = NotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Debug;
+		};
 		7997F4ABEB7FAE4DF5CEB86D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E72B190C3C48BF63A591DFC4 /* Pods-VelosurgeWeatherGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VelosurgeWeatherGuide/VelosurgeWeatherGuide.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_DEBUG_DYLIB = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VelosurgeWeatherGuide/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Velosurge Weather Guide";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you capture photos and videos inside web content.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to record audio for camera and web content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to measure ad campaigns and improve your experience in the app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -394,7 +635,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.han.v3l0s7rg3w27th3rg81d2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -441,8 +687,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_DEBUG_DYLIB = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -454,11 +702,53 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
+		};
+		D85D2A8FA172C097009F964A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_DEBUG_DYLIB = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.han.v3l0s7rg3w27th3rg81d2.NotificationServiceExtension;
+				PRODUCT_NAME = NotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Release;
 		};
 		E6FB8A6CA69AC3205CBF0E19 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -494,8 +784,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_DEBUG_DYLIB = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -507,6 +799,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -517,6 +813,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D71C8183CB9A606BE729FE7 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85D2A8FA172C097009F964A /* Release */,
+				18E5DE2808D6987125BF48EE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		80D67BCE2CF6E2A9AB52B0DB /* Build configuration list for PBXNativeTarget "VelosurgeWeatherGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -536,6 +841,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71F071A413CCB1F5DCB75027 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 12.19.2;
+			};
+		};
+		C122AEEBDF8B4BAD302992FC /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = exactVersion;
+				version = 6.18.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		277082180785617E19E0D2CE /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71F071A413CCB1F5DCB75027 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		5AB2B4690FC4CB6A7132C299 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71F071A413CCB1F5DCB75027 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		7E56F0D70ECF8C42B37E91C5 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C122AEEBDF8B4BAD302992FC /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89E420DAFDE97D6043F9857F /* Project object */;
 }
