@@ -8,7 +8,6 @@ workflows:
           XCODE_WORKSPACE: "VelosurgeWeatherGuide.xcworkspace"
           XCODE_SCHEME: "VelosurgeWeatherGuide"
           BUNDLE_ID: "com.han.v3l0s7rg3w27th3rg81d2"
-          EXTENSION_BUNDLE_ID: "com.han.v3l0s7rg3w27th3rg81d2.NotificationServiceExtension"
           APP_STORE_APP_ID: 6807215460
         xcode: latest
         cocoapods: 1.14.2
@@ -25,7 +24,6 @@ workflows:
         - name: Fetch signing files
           script: |
             app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --create
-            app-store-connect fetch-signing-files $EXTENSION_BUNDLE_ID --type IOS_APP_STORE --create
         - name: Use system default keychain
           script: |
             keychain add-certificates

@@ -20,20 +20,6 @@
                ReferencedContainer = "container:VelosurgeWeatherGuide.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CA01A30AB3497FA73123CF75"
-               BuildableName = "NotificationServiceExtension.appex"
-               BlueprintName = "NotificationServiceExtension"
-               ReferencedContainer = "container:VelosurgeWeatherGuide.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

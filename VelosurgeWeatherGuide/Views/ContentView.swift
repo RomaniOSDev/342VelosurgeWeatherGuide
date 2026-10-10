@@ -62,6 +62,11 @@ struct ContentView: View {
 
                     VStack(spacing: 10) {
                         NavigationLink {
+                            WateringPlanView()
+                        } label: {
+                            navRow("Watering plan", "calendar", store.planSummary)
+                        }
+                        NavigationLink {
                             LogHistoryView()
                         } label: {
                             navRow("History", "clock.arrow.circlepath", "\(store.moistureLogs.count) readings")
